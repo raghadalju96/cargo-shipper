@@ -1,0 +1,14 @@
+
+#This is an example of application-dev.properties
+
+
+#Server configuration
+server.port = PORT_NUM_HERE
+
+
+#Database configuration
+spring.datasource.url=jdbc:sqlserver://URL_HERE;encrypt=true;trustServerCertificate=true;
+spring.datasource.username=USER_NAME_HERE
+spring.datasource.password=PASSWORD_HERE
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
